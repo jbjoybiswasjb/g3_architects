@@ -150,7 +150,7 @@ nav ul li a {
     border-radius: 8px;
     background-color: #FF900E;
     padding: 20px 25px;
-}    
+}
 
 
 
@@ -182,6 +182,7 @@ nav ul li a {
     padding-left: .5em;
     border-left: 5px solid #FF900E;
     margin-bottom: .5em;
+    margin-top: 1em;
 }
 
 .features_left_top p {
@@ -249,26 +250,26 @@ nav ul li a {
 
 .some_facts_top {
     width: 545px;
-}    
+}
 
 .some_facts_top h3 {
     margin-bottom: .8em;
     color: #131313;
     font-size: 45px;
     font-weight: 700;
-}    
+}
 
 .some_facts_top p {
     color: #727272;
     font-size: 1em;
     font-weight: 400;
-}    
+}
 
 .some_facts_bottom {
     display: flex;
     justify-content: space-around;
     margin: 3em 1em 6em;
-}    
+}
 
 .some_facts_bottom div {
     width: 18%;
@@ -277,26 +278,26 @@ nav ul li a {
     border-radius: 1.5em;
     border: 1px solid #FF900E;
     padding: 1.5em 0;
-}    
+}
 
 .some_facts_bottom div img {
     width: 35px;
     height: 35px;
     display: inline-block;
-}    
+}
 
 .some_facts_bottom h4 {
     color: #424242;
     font-size: 1.5em;
     font-weight: 600;
     margin: .3em 0;
-}    
+}
 
 .some_facts_bottom p {
     color: #727272;
     font-size: 1em;
     font-weight: 600;
-}    
+}
 
 
 
@@ -307,40 +308,40 @@ nav ul li a {
 */
 #sponsor_section {
     margin: 80px 0 130px;
-}    
+}
 
 .sponsor_text {
     text-align: center;
     width: 60%;
     margin: 0 auto;
-}    
+}
 
 .sponsor_text h3 {
     color: #131313;
     font-size: 3em;
     font-weight: 700;
-}    
+}
 
 .sponsor_text p {
     color: #727272;
     font-size: 1em;
     font-weight: 400;
     margin: 1.5em 0 3.2em;
-}    
+}
 
 .sponsor_link {
     width: 100%;
-}    
+}
 
 .sponsor_link ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-}    
+}
 
 .sponsor_link ul li a img {
     width: 6em;
-}    
+}
 
 
 /* 
@@ -551,7 +552,7 @@ footer span {
     .quik_list_left {
         margin-bottom: 3em;
     }
-    
+
 
     /* Sponsor section. */
     #features_section {

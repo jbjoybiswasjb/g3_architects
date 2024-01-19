@@ -181,27 +181,30 @@ nav ul li a {
 }
 
 .some_facts_bottom div {
-    width: 23%;
+    width: 18%;
     height: 23%;
     text-align: center;
+    border-radius: 1.5em;
+    border: 1px solid #FF900E;
+    padding: 1.5em 0;
 }
 
 .some_facts_bottom div img {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     display: inline-block;
 }
 
 .some_facts_bottom h4 {
     color: #424242;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
-    margin: .6em 0;
+    margin: .3em 0;
 }
 
 .some_facts_bottom p {
     color: #727272;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 600;
 }
 

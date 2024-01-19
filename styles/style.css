@@ -97,16 +97,70 @@ nav ul li a {
                                         Quick list section.
 =========================================================================================
 */
+#quick_list_section {
+    padding: 85px 0 130px;
+}
 
+.d_flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.d_flex_div {
+    width: 45%;
+}
 
+.quik_list_left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick_list_right h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#quick_list {
+    color: #727272;
+    font-weight: 500;
+}
+
+#of_our {
+    color: #131313;
+}
+
+#features {
+    color: #FF900E;
+}
+
+.quick_list_right p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1.5em 0 2em;
+}
+
+.quick_list_right button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 20px 25px;
+}
 
 /* 
                                         Responsive CSS.
 =========================================================================================
 */
 @media screen and (max-width: 576px) {
-    
+
+
+    /* Header section. */
+
     header {
         padding: 1em 0;
     }
@@ -136,6 +190,26 @@ nav ul li a {
 
     #g3_banner article h3 {
         font-size: 2.5em;
+    }
+
+
+    /* Quick list section. */
+    #quick_list_section {
+        padding: 0;
+    }
+
+    .d_flex {
+        flex-direction: column;
+    }
+
+    .quik_list_left {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .quick_list_right {
+        width: 90%;
     }
 }
 

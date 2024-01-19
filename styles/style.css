@@ -150,35 +150,125 @@ nav ul li a {
     border-radius: 8px;
     background-color: #FF900E;
     padding: 20px 25px;
+}    
+
+
+
+/* 
+                                    Features section.
+=========================================================================================
+*/
+#features_section {
+    margin-bottom: 5em;
 }
+
+.features_dflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_left {
+    width: 40%;
+}
+
+.features_left_top {
+    margin-bottom: 2em;
+}
+
+.features_left_top h3 {
+    color: #131313;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-left: .5em;
+    border-left: 5px solid #FF900E;
+    margin-bottom: .5em;
+}
+
+.features_left_top p {
+    color: #727272;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.features_left_bottom div {
+    padding: 1.5em;
+    border-radius: .5em;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1.25em;
+}
+
+.features_left_bottom div h4 {
+    color: #131313;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.features_left_bottom div p {
+    color: #727272;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.features_right {
+    width: 55%;
+    height: 100%;
+    position: relative;
+}
+
+.features_right div {
+    padding: 1em;
+    border-radius: .5em;
+    background: #FF900E;
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    bottom: -2em;
+    left: -2em;
+}
+
+.features_right div h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.features_right div span {
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
 
 /* 
                                     Some facts section.
-=========================================================================================
+=========================================================================================                                    
 */
 
 .some_facts_top {
     width: 545px;
-}
+}    
 
 .some_facts_top h3 {
     margin-bottom: .8em;
     color: #131313;
     font-size: 45px;
     font-weight: 700;
-}
+}    
 
 .some_facts_top p {
     color: #727272;
     font-size: 1em;
     font-weight: 400;
-}
+}    
 
 .some_facts_bottom {
     display: flex;
     justify-content: space-around;
     margin: 3em 1em 6em;
-}
+}    
 
 .some_facts_bottom div {
     width: 18%;
@@ -187,71 +277,70 @@ nav ul li a {
     border-radius: 1.5em;
     border: 1px solid #FF900E;
     padding: 1.5em 0;
-}
+}    
 
 .some_facts_bottom div img {
     width: 35px;
     height: 35px;
     display: inline-block;
-}
+}    
 
 .some_facts_bottom h4 {
     color: #424242;
     font-size: 1.5em;
     font-weight: 600;
     margin: .3em 0;
-}
+}    
 
 .some_facts_bottom p {
     color: #727272;
     font-size: 1em;
     font-weight: 600;
-}
+}    
 
 
 
 
 /* 
                                     Our sponsors section.
-=========================================================================================
+=========================================================================================                                    
 */
 #sponsor_section {
     margin: 80px 0 130px;
-}
+}    
 
 .sponsor_text {
     text-align: center;
     width: 60%;
     margin: 0 auto;
-}
+}    
 
 .sponsor_text h3 {
     color: #131313;
     font-size: 3em;
     font-weight: 700;
-}
+}    
 
 .sponsor_text p {
     color: #727272;
     font-size: 1em;
     font-weight: 400;
     margin: 1.5em 0 3.2em;
-}
+}    
 
 .sponsor_link {
     width: 100%;
-}
+}    
 
 .sponsor_link ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
+}    
 
 .sponsor_link ul li a img {
     width: 6em;
-}
-
+}    
 
 
 /* 
@@ -273,6 +362,29 @@ footer span {
     background-color: #FFF4E7;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -335,6 +447,30 @@ footer span {
 
     .quick_list_right {
         width: 80%;
+    }
+
+
+    /* Sponsor section. */
+    #features_section {
+        margin-top: 5em;
+    }
+
+    .features_dflex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features_left {
+        width: 90%;
+    }
+
+    .features_right {
+        width: 90%;
+    }
+
+    .features_right div {
+        bottom: -2em;
+        left: -1em;
     }
 
 
@@ -414,6 +550,30 @@ footer span {
 
     .quik_list_left {
         margin-bottom: 3em;
+    }
+    
+
+    /* Sponsor section. */
+    #features_section {
+        margin-top: 5em;
+    }
+
+    .features_dflex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features_left {
+        width: 90%;
+    }
+
+    .features_right {
+        width: 90%;
+    }
+
+    .features_right div {
+        bottom: -2em;
+        left: -1em;
     }
 
 

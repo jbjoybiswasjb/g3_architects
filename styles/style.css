@@ -153,6 +153,128 @@ nav ul li a {
 }
 
 /* 
+                                    Some facts section.
+=========================================================================================
+*/
+
+.some_facts_top {
+    width: 545px;
+}
+
+.some_facts_top h3 {
+    margin-bottom: .8em;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.some_facts_top p {
+    color: #727272;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.some_facts_bottom {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em 1em 6em;
+}
+
+.some_facts_bottom div {
+    width: 23%;
+    height: 23%;
+    text-align: center;
+}
+
+.some_facts_bottom div img {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+.some_facts_bottom h4 {
+    color: #424242;
+    font-size: 2em;
+    font-weight: 600;
+    margin: .6em 0;
+}
+
+.some_facts_bottom p {
+    color: #727272;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+
+
+/* 
+                                    Our sponsors section.
+=========================================================================================
+*/
+#sponsor_section {
+    margin: 80px 0 130px;
+}
+
+.sponsor_text {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sponsor_text h3 {
+    color: #131313;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.sponsor_text p {
+    color: #727272;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 1.5em 0 3.2em;
+}
+
+.sponsor_link {
+    width: 100%;
+}
+
+.sponsor_link ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor_link ul li a img {
+    width: 6em;
+}
+
+
+
+/* 
+                                        Footer section.
+=========================================================================================
+*/
+footer {
+    text-align: center;
+    margin-bottom: 13.5em;
+}
+
+footer span {
+    border-radius: .5em;
+    padding: 2.2em 0;
+    display: inline-block;
+    color: #424242;
+    font-size: 1.25em;
+    font-weight: 400;
+    background-color: #FFF4E7;
+    width: 100%;
+}
+
+
+
+
+/* 
                                         Responsive CSS.
 =========================================================================================
 */
@@ -175,7 +297,7 @@ nav ul li a {
     }
 
     nav ul li {
-        margin: 10px 0;
+        margin: .8em 0;
     }
 
     .all_section_margin {
@@ -203,14 +325,60 @@ nav ul li a {
     }
 
     .quik_list_left {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         width: 90%;
-        margin-bottom: 30px;
+        margin-bottom: 2em;
     }
 
     .quick_list_right {
-        width: 90%;
+        width: 80%;
     }
+
+
+
+    /* Some facts section. */
+    #some_facts_section {
+        margin: 6em 0;
+    }
+
+    .some_facts_top {
+        width: 100%;
+        text-align: center;
+    }
+
+    .some_facts_bottom {
+        flex-direction: column;
+    }
+
+    .some_facts_bottom div {
+        width: 100%;
+        margin-bottom: 4em;
+    }
+
+    .some_facts_bottom div img {
+        height: 70px;
+        width: 70px;
+    }
+
+
+    /* Our sponsor section. */
+    .sponsor_text {
+        width: 95%;
+    }
+
+    .sponsor_link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sponsor_link ul {
+        flex-direction: column;
+    }
+
+    .sponsor_link ul li {
+        margin-bottom: 1.5em;
+    }
+
 }
 
 
@@ -222,11 +390,46 @@ nav ul li a {
 
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+
+    .all_section_margin {
+        width: 95%;
+    }
+
+    /* Header. */
     nav ul {
         flex-direction: column;
     }
 
     nav ul li {
-        margin: 10px 0;
+        margin: .8em 0;
     }
+
+    /* Quick list section. */
+    .d_flex {
+        flex-direction: column;
+    }
+
+    .quik_list_left {
+        margin-bottom: 3em;
+    }
+
+
+    /* Our sponsor section. */
+    .sponsor_text {
+        width: 95%;
+    }
+
+    .sponsor_link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sponsor_link ul {
+        flex-direction: column;
+    }
+
+    .sponsor_link ul li {
+        margin-bottom: 1.5em;
+    }
+
 }

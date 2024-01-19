@@ -12,6 +12,147 @@ img {
     display: block;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
+    color: #131313;
+}
+
+
+/* 
+                                        Header.
+=========================================================================================
+*/
+.all_section_margin {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 45px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+nav h3 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 3em;
+}
+
+nav ul li a {
+    color: #424242;
+    font-size: 1.125em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#g3_banner article {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#g3_banner article h3 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#g3_banner article p {
+    margin: 35px 0;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#g3_banner article button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+}
+
+
+/* 
+                                        Quick list section.
+=========================================================================================
+*/
+
+
+
+
+/* 
+                                        Responsive CSS.
+=========================================================================================
+*/
+@media screen and (max-width: 576px) {
+    
+    header {
+        padding: 1em 0;
+    }
+
+    nav {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .all_section_margin {
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    nav h3 {
+        font-size: 2em;
+        margin-bottom: .3em;
+    }
+
+    #g3_banner article h3 {
+        font-size: 2.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
 }
